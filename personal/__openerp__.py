@@ -54,10 +54,10 @@ Fornisce un piano dei conti completo e le impostazioni base per gestire la propr
     'data': [
         'data/account.account.template.csv',
         'data/account.tax.code.template.csv',
-        'account_chart.xml',
+        'data/account_chart.xml',
         'data/account.tax.template.csv',
         'data/account.fiscal.position.template.csv',
-        'l10n_chart_it_personal.xml',
+        'data/l10n_chart_it_personal.xml',
         ],
     'demo': [],
     'installable': True,
