@@ -28,7 +28,7 @@
 "account_14","14","DISPONIBILITÀ LIQUIDE","account_1","account.account_type_asset_view1","view","FALSE"
 "account_1401","1401","banche c/c","account_14","account.data_account_type_bank","liquidity","TRUE"
 "account_1410","1410","c/c postali","account_14","account.data_account_type_bank","liquidity","TRUE"
-"account_1420","1420","carte di debito e ricaricabili","account_14","account.data_account_type_cash","liquidity","TRUE"
+"account_1420","1420","carte prepagate / ricaricabili","account_14","account.data_account_type_cash","liquidity","TRUE"
 "account_1430","1430","contanti","account_14","account.data_account_type_cash","liquidity","TRUE"
 "account_1440","1440","paypal","account_14","account.data_account_type_cash","liquidity","TRUE"
 "account_15","15","CREDITI DIVERSI","account_1","account.account_type_asset_view1","view","FALSE"
