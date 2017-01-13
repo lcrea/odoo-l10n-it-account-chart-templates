@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="fiscalposition_it" model="account.fiscal.position.template">
+        <field name="name">Italia</field>
+        <field name="chart_template_id" ref="l10n_it_chart_tmpl_personal"/>
+    </record>
+</odoo>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="tag_acc_1" model="account.account.tag">
+        <field name="name">ATTIVITÀ</field>
+        <field name="applicability">accounts</field>
+    </record>
+    <record id="tag_acc_11" model="account.account.tag">
+        <field name="name">IMMOBILIZZAZIONI IMMATERIALI</field>
+        <field name="applicability">accounts</field>
+    </record>
+    <record id="tag_acc_12" model="account.account.tag">
+        <field name="name">IMMOBILIZZAZIONI MATERIALI</field>
+        <field name="applicability">accounts</field>
+    </record>
+    <record id="tag_acc_13" model="account.account.tag">
+        <field name="name">IMMOBILIZZAZIONI FINANZIARIE</field>
+        <field name="applicability">accounts</field>
+    </record>
+    <record id="tag_acc_14" model="account.account.tag">
+        <field name="name">DISPONIBILITÀ LIQUIDE</field>
+        <field name="applicability">accounts</field>
+    </record>
+    <record id="tag_acc_15" model="account.account.tag">
+        <field name="name">CREDITI DIVERSI</field>
+        <field name="applicability">accounts</field>
+    </record>
+    <record id="tag_acc_18" model="account.account.tag">
+        <field name="name">RATEI E RISCONTI ATTIVI</field>
+        <field name="applicability">accounts</field>
+    </record>
+    <record id="tag_acc_2" model="account.account.tag">
+        <field name="name">PASSIVITÀ</field>
+        <field name="applicability">accounts</field>
+    </record>
+    <record id="tag_acc_20" model="account.account.tag">
+        <field name="name">PATRIMONIO NETTO</field>
+        <field name="applicability">accounts</field>
+    </record>
+    <record id="tag_acc_23" model="account.account.tag">
+        <field name="name">DEBITI FINANZIARI</field>
+        <field name="applicability">accounts</field>
+    </record>
+    <record id="tag_acc_25" model="account.account.tag">
+        <field name="name">DEBITI DIVERSI</field>
+        <field name="applicability">accounts</field>
+    </record>
+    <record id="tag_acc_28" model="account.account.tag">
+        <field name="name">RATEI E RISCONTI PASSIVI</field>
+        <field name="applicability">accounts</field>
+    </record>
+    <record id="tag_acc_29" model="account.account.tag">
+        <field name="name">CONTI TRANSITORI E DIVERSI</field>
+        <field name="applicability">accounts</field>
+    </record>
+    <record id="tag_acc_3" model="account.account.tag">
+        <field name="name">RICAVI</field>
+        <field name="applicability">accounts</field>
+    </record>
+    <record id="tag_acc_31" model="account.account.tag">
+        <field name="name">RICAVI PROFESSIONALI</field>
+        <field name="applicability">accounts</field>
+    </record>
+    <record id="tag_acc_4" model="account.account.tag">
+        <field name="name">COSTI</field>
+        <field name="applicability">accounts</field>
+    </record>
+    <record id="tag_acc_41" model="account.account.tag">
+        <field name="name">COSTI PER BENI E SERVIZI</field>
+        <field name="applicability">accounts</field>
+    </record>
+    <record id="tag_acc_42" model="account.account.tag">
+        <field name="name">COSTI PER LOCALI</field>
+        <field name="applicability">accounts</field>
+    </record>
+    <record id="tag_acc_43" model="account.account.tag">
+        <field name="name">COSTI PER AUTOMEZZI</field>
+        <field name="applicability">accounts</field>
+    </record>
+    <record id="tag_acc_44" model="account.account.tag">
+        <field name="name">COSTI PER BENESSERE</field>
+        <field name="applicability">accounts</field>
+    </record>
+    <record id="tag_acc_45" model="account.account.tag">
+        <field name="name">COSTI PER FORMAZIONE</field>
+        <field name="applicability">accounts</field>
+    </record>
+    <record id="tag_acc_46" model="account.account.tag">
+        <field name="name">COSTI PER TEMPO LIBERO</field>
+        <field name="applicability">accounts</field>
+    </record>
+    <record id="tag_acc_49" model="account.account.tag">
+        <field name="name">ONERI FISCALI DIVERSI</field>
+        <field name="applicability">accounts</field>
+    </record>
+    <record id="tag_acc_5" model="account.account.tag">
+        <field name="name">RICAVI DIVERSI</field>
+        <field name="applicability">accounts</field>
+    </record>
+    <record id="tag_acc_51" model="account.account.tag">
+        <field name="name">PROVENTI DIVERSI</field>
+        <field name="applicability">accounts</field>
+    </record>
+    <record id="tag_acc_52" model="account.account.tag">
+        <field name="name">PROVENTI FINANZIARI</field>
+        <field name="applicability">accounts</field>
+    </record>
+    <record id="tag_acc_53" model="account.account.tag">
+        <field name="name">RIVALUTAZIONI</field>
+        <field name="applicability">accounts</field>
+    </record>
+    <record id="tag_acc_6" model="account.account.tag">
+        <field name="name">COSTI DIVERSI</field>
+        <field name="applicability">accounts</field>
+    </record>
+    <record id="tag_acc_61" model="account.account.tag">
+        <field name="name">ONERI DIVERSI</field>
+        <field name="applicability">accounts</field>
+    </record>
+    <record id="tag_acc_62" model="account.account.tag">
+        <field name="name">ONERI FINANZIARI</field>
+        <field name="applicability">accounts</field>
+    </record>
+    <record id="tag_acc_63" model="account.account.tag">
+        <field name="name">SVALUTAZIONI</field>
+        <field name="applicability">accounts</field>
+    </record>
+    <record id="tag_acc_9" model="account.account.tag">
+        <field name="name">CONTI DI RISULTATO</field>
+        <field name="applicability">accounts</field>
+    </record>
+    <record id="tag_tax_ivad" model="account.account.tag">
+        <field name="name">IVA a Debito</field>
+        <field name="applicability">taxes</field>
+    </record>
+    <record id="tag_tax_ivac" model="account.account.tag">
+        <field name="name">IVA a Credito</field>
+        <field name="applicability">taxes</field>
+    </record>
+</odoo>

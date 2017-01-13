@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Default configuration - Part #2 (see "account_chart_template_data_1.xml") -->
+    <record id="l10n_it_chart_tmpl_personal" model="account.chart.template">
+        <field name="expense_currency_exchange_account_id" ref="account_6102"/>
+        <field name="income_currency_exchange_account_id" ref="account_5102"/>
+        <field name="property_account_expense_categ_id" ref="account_6104"/>
+        <field name="property_account_income_categ_id" ref="account_3104"/>
+        <field name="property_account_payable_id" ref="account_2340"/>
+        <field name="property_account_receivable_id" ref="account_1502"/>
+    </record>
+</odoo>
