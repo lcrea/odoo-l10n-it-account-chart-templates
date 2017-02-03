@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+    <data noupdate="0">
+        <record model="account.account.type" id="account_type_revaluation">
+            <field name="name">Rivalutazioni</field>
+            <field name="code">revaluation</field>
+            <field name="close_method">none</field>
+            <field name="report_type">income</field>
+        </record>
+        <record model="account.account.type" id="account_type_devaluation">
+            <field name="name">Svalutazioni</field>
+            <field name="code">devaluation</field>
+            <field name="close_method">none</field>
+            <field name="report_type">expense</field>
+        </record>
+    </data>
+</openerp>
