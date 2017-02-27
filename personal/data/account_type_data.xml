@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record model="account.account.type" id="account_type_revaluation">
+        <field name="name">Rivalutazioni</field>
+        <field name="type">other</field>
+    </record>
+    <record model="account.account.type" id="account_type_devaluation">
+        <field name="name">Svalutazioni</field>
+        <field name="type">other</field>
+    </record>
+</odoo>

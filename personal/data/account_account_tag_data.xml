@@ -17,11 +17,15 @@
         <field name="applicability">accounts</field>
     </record>
     <record id="tag_acc_14" model="account.account.tag">
-        <field name="name">DISPONIBILITÀ LIQUIDE</field>
+        <field name="name">CREDITI COMMERCIALI</field>
         <field name="applicability">accounts</field>
     </record>
     <record id="tag_acc_15" model="account.account.tag">
         <field name="name">CREDITI DIVERSI</field>
+        <field name="applicability">accounts</field>
+    </record>
+    <record id="tag_acc_16" model="account.account.tag">
+        <field name="name">DISPONIBILITÀ LIQUIDE</field>
         <field name="applicability">accounts</field>
     </record>
     <record id="tag_acc_18" model="account.account.tag">
@@ -38,6 +42,10 @@
     </record>
     <record id="tag_acc_23" model="account.account.tag">
         <field name="name">DEBITI FINANZIARI</field>
+        <field name="applicability">accounts</field>
+    </record>
+    <record id="tag_acc_24" model="account.account.tag">
+        <field name="name">DEBITI COMMERCIALI</field>
         <field name="applicability">accounts</field>
     </record>
     <record id="tag_acc_25" model="account.account.tag">

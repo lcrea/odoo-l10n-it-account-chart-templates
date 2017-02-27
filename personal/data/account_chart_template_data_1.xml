@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <!-- Transfer account #1 -->
-    <record id="account_2904" model="account.account.template">
-        <field name="code">2904</field>
-        <field name="name">conto di trasferimento</field>
+    <record id="account_2902" model="account.account.template">
+        <field name="code">2902</field>
+        <field name="name">trasferimenti interni</field>
         <field name="reconcile" eval='True'/>
         <field name="user_type_id" ref="account.data_account_type_current_assets"/>
     </record>
@@ -11,16 +11,16 @@
     <!-- Default configuration - Part #1 (see "account_chart_template_data_2.xml") -->
     <record id="l10n_it_chart_tmpl_personal" model="account.chart.template">
         <field name="name">Italia - Piano dei conti (personale)</field>
-        <field name="bank_account_code_prefix">140</field>
-        <field name="cash_account_code_prefix">143</field>
+        <field name="bank_account_code_prefix">160</field>
+        <field name="cash_account_code_prefix">163</field>
         <field name="code_digits">4</field>
         <field name="currency_id" ref="base.EUR"/>
         <field name="tax_calculation_rounding_method">round_per_line</field>
-        <field name="transfer_account_id" ref="account_2904"/>
+        <field name="transfer_account_id" ref="account_2902"/>
     </record>
 
     <!-- Transfer account #2 -->
-    <record id="account_2904" model="account.account.template">
+    <record id="account_2902" model="account.account.template">
         <field name="chart_template_id" ref="l10n_it_chart_tmpl_personal"/>
     </record>
 </odoo>
